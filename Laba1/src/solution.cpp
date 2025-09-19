@@ -1,7 +1,5 @@
 #include "../include/solution.h"
 #include <string>
-#include <cctype>
-#include <iostream>
 
 bool checkDayNumber(const std::string& day, int num) {
 
@@ -21,4 +19,5 @@ bool checkDayNumber(const std::string& day, int num) {
         return true;
     }
     return false;
+
 }
